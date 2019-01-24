@@ -7,8 +7,7 @@
 #include "matrix.h"
 #define SWAP(a,b) {temp=(a);(a)=(b);(b)=temp;}
 #define TINY 1.0e-20;
-/* ludcmp.c script and lubksb.c 
-is written by Press, W.H., Teukolsky, S.A., Vetterling, W.T., & Flannery, B.P. (1997)*/
+/* ludcmp.c,lubksb.c, and gaussj.c are scripts written by Press, W.H., Teukolsky, S.A., Vetterling, W.T., & Flannery, B.P. (1997)*/
 void transpose(float **A, float **B, int N, int M){
 	int i;
 	for (i=1;i<=M;i++){
